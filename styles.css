@@ -1,0 +1,61 @@
+body {
+    color: rgb(235, 231, 223);
+    background: rgb(219, 198, 179);
+    margin: 0px;
+    font-family: "Bodoni Moda SC", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 90px;
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+}
+
+.chamada {
+    background: rgb(27, 13, 3);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto { 
+    margin-right: 5%;
+
+}
+
+h2 {
+    color:rgb(27, 13, 3);
+    font-size: 80px ;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+p {
+    font-family: Amatic SC, sans-serif;
+    font-size: 100px;
+}
+
+img {
+ height: 600px;
+
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.rodape {
+    background: rgb(219, 198, 179);
+}
+.iframe {
+    padding-right: 10%;
+    padding-left: 10%;
+}
